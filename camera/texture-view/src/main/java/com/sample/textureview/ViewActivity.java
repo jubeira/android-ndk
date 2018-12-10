@@ -37,7 +37,7 @@ import android.view.View;
 import android.util.Size;
 import android.widget.FrameLayout;
 
-import junit.framework.Assert;
+import org.junit.Assert;
 
 import static android.hardware.camera2.CameraMetadata.LENS_FACING_BACK;
 

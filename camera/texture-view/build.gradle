@@ -27,9 +27,12 @@ android {
                           'proguard-rules.txt'
         }
     }
-
+    lintOptions {
+        abortOnError false
+    }
 }
 
 dependencies {
     implementation 'com.android.support:support-compat:25.3.1'
+    implementation 'junit:junit:4.12'
 }
